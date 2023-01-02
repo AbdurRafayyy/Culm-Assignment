@@ -13,6 +13,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url("bg.jpg");
+  background-color: #cccccc;
+}
+    
 .row {
   margin-left:-5px;
   margin-right:-5px;
@@ -106,12 +111,14 @@ tr:nth-child(even) {
 <br>
 <br>
 <br>
-  
+
+  <h2 style="width:300px; margin:0 auto;">Enter your username and password:</h2>
+  <br>
   <div id="signup" style="width:300px; margin:0 auto;">
     <form>
-      Username <input type="text" name="user"><br>
+      Username: <input type="text" name="user"><br>
       <br>
-      Password <input type="text" name="pass"><br>
+      Password: <input type="text" name="pass"><br>
       <br>
       <input style="width:300px; margin:0 auto;" type="submit" name="save" value="Sign Up/Log In">
     </form>
